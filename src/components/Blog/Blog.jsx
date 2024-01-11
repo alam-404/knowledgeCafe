@@ -16,7 +16,7 @@ const Blog = (props) => {
                     <img loading="lazy" src={blog.image}/>
                 </div>
                 <div className="author-section">
-                    <Author author_name={blog.author_name} author_avatar={blog.author_avatar} time_to_read={blog.time_to_read} bookmarkHandler={bookmarkHandler}></Author>
+                    <Author blogData={blog} bookmarkHandler={bookmarkHandler}></Author>
                 </div>
                 <div className="blog-content-section">
                     <h5 className="blog-title">{blog.title}</h5>

@@ -9,6 +9,7 @@ import Bookmarks from "../Bookmarks/Bookmarks";
 const BlogContainer = () => {
     const [blogs, setBlogs] = useState([])
     const [timeSpent, setTimeSpent] = useState(0);
+    const [bookmarks, setBookmarks] = useState([])
 
     useEffect(()=>{
         fetch('blogs.json')
@@ -19,6 +20,8 @@ const BlogContainer = () => {
     useEffect(()=>{
         if (!localStorage.getItem('time_spend'))
             localStorage.setItem('time_spend', 0)
+        if (!localStorage.getItem('bookmarks'))
+            localStorage.setItem('bookmarks', "[]")
     }, [])
 
     const mark_as_read = (new_read_time) => {
@@ -34,9 +37,23 @@ const BlogContainer = () => {
         }
     }
 
-    const bookmark_click = ()=>{
-        // let old_bookmarks = localStorage.getItem()
-        console.log("clicked")
+    const bookmark_click = (id)=>{
+        const storedData = localStorage.getItem("bookmarks");
+        if (storedData){
+            const oldData = JSON.parse(storedData);
+            let newData = [...oldData]
+            if (!newData.includes(id)){
+                newData.push(id)
+                setBookmarks(newData)
+                localStorage.setItem('bookmarks', JSON.stringify(newData));
+            }
+
+        }
+        else {
+            let newData = [id];
+            setBookmarks(newData)
+            localStorage.setItem('bookmarks', JSON.stringify(newData));
+        }
     }
 
     return (
@@ -44,10 +61,10 @@ const BlogContainer = () => {
             <div className="main-section">
                 <div className="blog-container">
                     {
-                        blogs.map(blog => <Blog key={blog.id} blog={blog} readTimeHandler={mark_as_read} BookmarkHandler={bookmark_click}></Blog>)
+                        blogs.map(blog => <Blog key={blog.id} blog={blog} readTimeHandler={mark_as_read} bookmarkHandler={bookmark_click}></Blog>)
                     }
                 </div>
-                <Bookmarks timeSpent={timeSpent}></Bookmarks>
+                <Bookmarks timeSpent={timeSpent} bookmarks={bookmarks}></Bookmarks>
             </div>
         </>
         

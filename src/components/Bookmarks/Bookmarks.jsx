@@ -8,15 +8,13 @@ import "./Bookmarks.css"
 
 const Bookmarks = (props) => {
 
-    const timeSpent = props.timeSpent;
-
     return (
         <div>
             <div>
-                <TimeSpent timeSpent={timeSpent}></TimeSpent>
+                <TimeSpent timeSpent={props.timeSpent}></TimeSpent>
             </div>
             <div className="bookmark-section">
-                <Bookmark></Bookmark>
+                <Bookmark bookmarks={props.bookmarks} blog={props.blog}></Bookmark>
             </div>
         </div>
     );
