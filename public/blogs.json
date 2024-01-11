@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "The Rise of Artificial Intelligence",
+        "content": "Artificial Intelligence (AI) is transforming industries, from healthcare to finance. As machines mimic human intelligence, debates on ethics and job displacement intensify. This blog explores the AI revolution and its impact on society.",
+        "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 8,
+        "author_name": "Alex Turing",
+        "author_avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+        "likes": 320,
+        "hash_tags": "#ai #machine-learning"
+    },
+    {
+        "id": 2,
+        "title": "Blockchain: Beyond Cryptocurrency",
+        "content": "Beyond Bitcoin, blockchain technology is reshaping industries. From secure transactions to supply chain transparency, this blog delves into the diverse applications and the potential future of blockchain.",
+        "image": "https://images.pexels.com/photos/5980738/pexels-photo-5980738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 10,
+        "author_name": "Sara Ledger",
+        "author_avatar": "https://randomuser.me/api/portraits/men/16.jpg",
+        "likes": 450,
+        "hash_tags": "#blockchain #crypto #cryptocurrency"
+    },
+    {
+        "id": 3,
+        "title": "Quantum Computing: A New Frontier",
+        "content": "Quantum computing promises unparalleled computational power, challenging the limits of classical computers. Learn about the basics, potential applications, and the race to achieve quantum supremacy.",
+        "image": "https://images.pexels.com/photos/8721342/pexels-photo-8721342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 12,
+        "author_name": "Dr. Qubit",
+        "author_avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "likes": 380,
+        "hash_tags": "#quantum #quantum-computing"
+    },
+    {
+        "id": 4,
+        "title": "The Evolution of 5G Technology",
+        "content": "As 5G networks roll out globally, the world is set to experience unprecedented connectivity. This blog explores the technological advancements, benefits, and challenges associated with 5G.",
+        "image": "https://images.pexels.com/photos/9122692/pexels-photo-9122692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 9,
+        "author_name": "Emma Connectivity",
+        "author_avatar": "https://randomuser.me/api/portraits/men/65.jpg",
+        "likes": 280,
+        "hash_tags": "#technology #5G #internet"
+    },
+    {
+        "id": 5,
+        "title": "Augmented Reality: Shaping the Future of Interaction",
+        "content": "From gaming to education, augmented reality (AR) is revolutionizing how we interact with the digital world. Discover the current applications and the potential of AR in various industries.",
+        "image": "https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 7,
+        "author_name": "Alan Augment",
+        "author_avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+        "likes": 320,
+        "hash_tags": "#ar #reality"
+    },
+    {
+        "id": 6,
+        "title": "Cybersecurity in the Age of Digital Transformation",
+        "content": "As businesses undergo digital transformation, the importance of cybersecurity becomes paramount. Explore the latest trends, threats, and strategies to safeguard digital assets.",
+        "image": "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 11,
+        "author_name": "Cyber Sentinel",
+        "author_avatar": "https://randomuser.me/api/portraits/women/60.jpg",
+        "likes": 410,
+        "hash_tags": "#cybersecurity #cyber #security"
+    },
+    {
+        "id": 7,
+        "title": "The Internet of Things (IoT): Connecting the World",
+        "content": "From smart homes to industrial applications, the Internet of Things is expanding its reach. Dive into the interconnected world of IoT and its implications for the future.",
+        "image": "https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 8,
+        "author_name": "Eva Connect",
+        "author_avatar": "https://randomuser.me/api/portraits/men/30.jpg",
+        "likes": 350,
+        "hash_tags": "#internet #technology"
+    },
+    {
+        "id": 8,
+        "title": "Robotic Revolution: Automation and Beyond",
+        "content": "Automation is reshaping industries through robotics. Explore the latest advancements, ethical considerations, and the societal impact of the ongoing robotic revolution.",
+        "image": "https://images.pexels.com/photos/7750704/pexels-photo-7750704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 10,
+        "author_name": "Robo Innovator",
+        "author_avatar": "https://randomuser.me/api/portraits/men/50.jpg",
+        "likes": 290,
+        "hash_tags": "#robotics #robot #machine #automation"
+    },
+    {
+        "id": 9,
+        "title": "Biotechnology: Advancing Healthcare and Beyond",
+        "content": "Discover the breakthroughs in biotechnology that are transforming healthcare, agriculture, and environmental sustainability. Explore the ethical considerations surrounding these advancements.",
+        "image": "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 13,
+        "author_name": "Dr. BioTech",
+        "author_avatar": "https://randomuser.me/api/portraits/women/20.jpg",
+        "likes": 380,
+        "hash_tags": "#biotech #biotechnology"
+    },
+    {
+        "id": 10,
+        "title": "Drones: From Recreation to Innovation",
+        "content": "Beyond aerial photography, drones are finding innovative applications in various industries. Learn about drone technology, regulations, and their role in shaping the future.",
+        "image": "https://images.pexels.com/photos/997130/pexels-photo-997130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "time_to_read": 9,
+        "author_name": "Sky Pioneer",
+        "author_avatar": "https://randomuser.me/api/portraits/men/30.jpg",
+        "likes": 330,
+        "hash_tags": "#drones #simulation"
+    }
+]

@@ -1,0 +1,37 @@
+.navbar{
+    margin: 0 130px;
+    /* background-color: #1a1a1a; */
+}
+
+nav{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    color: #213547;
+    padding: 2px 50px;
+}
+.nav-links a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #213547;
+    transition: color 0.5s;
+}
+
+.nav-links{
+    display: flex;
+    place-items: center;
+}
+.nav-links img {
+    height:50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    filter: grayscale(50%);
+    border: 3px solid #fff;
+    transition: border 1s;
+}
+
+.nav-links img:hover{
+    filter: none;
+    border: 3px solid #747bff;
+}
